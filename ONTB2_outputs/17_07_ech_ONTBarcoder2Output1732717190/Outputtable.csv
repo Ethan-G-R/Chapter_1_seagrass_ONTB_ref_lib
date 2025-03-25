@@ -1,0 +1,19 @@
+Number of reads in file,321661
+Number of reads passing length filter,295049
+Number of reads used for demultiplexing,305666
+Number of samples in demultiplexing file,3
+Number of samples with >=5X coverage,3
+Number of good barcodes obtained after first alignment of up to 200 reads,3
+Number of erroneous barcodes obtained after first alignment of up to 200 reads,0
+Number of good barcodes obtained after aligning similar reads,0
+Number of erroneous barcodes obtained after aligning similar reads,0
+Number of barcodes fixed,0
+Final number of barcodes,3
+Final number of barcodes that cannot be fixed,0
+Number of Ns in final barcodes,0
+Number of filtered barcodes,3
+Number of QC_Compliant barcodes,3
+Number of barcodes with 1-5 errors,0
+Number of barcodes with 6-10 errors,0
+Number of barcodes with 11-15 errors,0
+Number of barcodes with over 15 errors,0

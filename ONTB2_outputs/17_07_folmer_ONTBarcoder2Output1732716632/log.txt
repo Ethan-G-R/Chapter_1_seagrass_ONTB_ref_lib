@@ -1,0 +1,38 @@
+Input FASTQ: C:/Users/r01er21/OneDrive - University of Aberdeen/Chapter 1 Invert ID results/Chapter_1_rerun_post_16.05.24/17.07_RUN/17_07_ONTB_input/passed_skipped_pass_R10_17_07_23.fastq
+Input Demultiplexing file: C:/Users/r01er21/OneDrive - University of Aberdeen/Chapter 1 Invert ID results/Chapter_1_rerun_post_16.05.24/17.07_RUN/17_07_ONTB_input/Flonge_R10_run_17_07_23_folmer_demfile
+
+PARAMETERS:
+Minimum Length: 658
+Expected barcode length: 658
+Window to select reads of during demultiplexing: 100
+Build consensus based on reads subset by length: True
+Build consensus based on reads subset by similarity: True
+Fix barcodes based on MSA: True
+Window to select reads of long length after demultiplexing: 50
+Coverage used for barcode calling based on subsetting reads by lengths: [25, 50, 100, 200, 500]
+Coverage used for barcode calling in 2nd step, based on subsetting reads by similarity: 100
+Genetic code: 5
+<br><br>Read demultiplexing file. There are 31 in your experiment.
+ Generated length filtered file. Your raw file contains 321661 sequences.
+1732716642: Split files into correct product length. There are 295,049 single product sequences.
+1732716647: Split your input into parts of 20,000 sequences
+1732716757: Demultiplexing is complete
+1732716758: Demultiplexed reads are stored in C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\demultiplexed. 
+Number of reads demultiplexed = 168,888.0 (55.28%).1732716812: Consensus calling based on sequences closest to length reads is complete
+
+Consensus sequences are stored in C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\consensus\consensus_all_step1.fa.1732716813: Reading the MSA to split the barcodes post length, translation and internal gap check. 
+Results are saved in C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\predgood\consensus_predgood_barcodes.fa 
+and C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\pred_erroneous\consensus_prederr_barcodes.fa
+1732716814: Reading the MSA to split the barcodes post length, translation and internal gap check. 
+Results are saved in C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\predgood\consensus_predgood_barcodes.fa 
+and C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\pred_erroneous\consensus_prederr_barcodes.fa.
+Number of good barcodes identified in this step=27
+1732716816: Second consensus calling completed
+1732716817: Reading the MSA to split the barcodes post length, translation and internal gap check. 
+Results are saved in C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\consensus_by_similarity\90perc_predgood_barcodes.fa 
+and C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\barcodesets\consensus_by_similarity\90perc_prederr_barcodes.fa
+Number of good barcodes based on 90% matching=0
+1732716818: Alignments for fixing barcodes is complete
+1732716818: Fixed barcodes are generated
+1732716818: The pipeline is completed. 29 consensus barcodes have been built.
+Please check C:\ONTbarcoder2.3.0_win_exe\ONTBarcoderOutput1732716632\Main_barcode_results for the final output
