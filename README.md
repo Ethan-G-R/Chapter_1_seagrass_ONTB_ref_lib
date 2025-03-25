@@ -15,6 +15,7 @@ R scripts for producing graphics can be found in plot/FINAL_plots.R
 
 **MAPPING**  
 The mapping step was carried out using Geneious Prime version 2024.0.7  
+**See mapped_reruns/geneious_mapping_record.xlsx** for details  
 Input reads to Geneious Prime for mapped can be found ONTB2_outputs/ONTBarcoder2Output/demultiplexed  
 Map sequences can be found in mapped_reruns/geneious_mapping_record  
 Mapped reads can be found in mapped_reruns/*_rerun  
